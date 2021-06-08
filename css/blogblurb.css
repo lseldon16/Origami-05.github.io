@@ -1,0 +1,78 @@
+/* Div containing all the blog blurbs */
+#blogdiv {
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    border:5px solid black;
+    /* min-height:100px; */
+}
+
+.sortInput, .restrictionInput, form{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Blog blurb display*/
+.blogblurb {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 94%;
+    margin: 3%;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.blogblurbimagecontainer {
+    /* max-width:150px;
+    min-width:150px; */
+    width:150px;
+    /* border:1px solid black; */
+}
+
+.blogblurbimage {
+    width:100%;
+    object-fit:scale-down;
+    padding:3%;
+    vertical-align: text-top;
+}
+
+.title {
+    padding-left:2%;
+    padding-top:.25em;
+    font-size:1.5em;
+}
+
+.author {
+    padding-left:2%;
+    font-size:.75em;
+    line-height:.5em;
+    vertical-align: text-top;
+    padding-bottom:1em;
+}
+
+.date {
+    padding-left:2%;
+    font-size:.75em;
+    line-height:.5em;
+    vertical-align: text-top;
+    padding-bottom:1em;
+}
+
+.blurb {
+    padding-left:2%;
+    max-width: 90%;
+    /* The following clips the blog blurb at 3 lines and puts ellipses at the end */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+}

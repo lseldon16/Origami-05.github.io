@@ -1,0 +1,54 @@
+<!-- Origami_05 -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title> Blog Posts </title> <!-- Find something more creative/bloggy -->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/main_style.css" type="text/css">
+    <link rel="stylesheet" href="../css/blogblurb.css" type="text/css">
+    <script src="../javascript/BlogScripts/BlogBlurbControl.js"></script>
+    <script src="../javascript/BlogScripts/BlogBlurb.js"></script>
+    <script src="../javascript/BlogScripts/MyDate.js"></script>
+
+</head>
+
+<body onload="initialize()">
+    <header>
+        <img src="../images/header_image.jpg" alt="several origami models" id="headerImage">
+        <h2> Ori's Origami Review </h2>
+        <ul class="navBar">
+            <li class="navBarContent"><a href="home_page.html" class="navBarLink"> Home </a></li>
+            <li class="navBarContent"><a href="blog_posts.html" class="navBarLink"> Blog Posts </a> </li>
+            <li class="navBarContent"><a href="history.html" class="navBarLink"> History of Origami</a></li>
+            <li class="navBarContent"><a href="resources.html" class="navBarLink"> Resources </a></li>
+        </ul>
+    </header>
+
+    <h1> Library of Blog Posts</h1>
+    <form>
+        <select id="sortInput" onchange="mainControl.displayBlogs()"> <!-- This is supposed to call displayBlogs any time it's changed -->
+            <option value="dateRecent">Date (newest - oldest)</option>
+            <option value="dateOldest">Date (oldest - newest)</option>
+            <option value="authorAZ">Author (A - Z)</option>
+            <option value="authorZA">Author (Z - A)</option>
+            <option value="titleAZ">Title (A - Z)</option>
+            <option value="titleZA">Title (Z - A)</option>
+
+        </select>
+        <select id="restrictionInput" onchange="mainControl.displayBlogs()"> <!-- This is supposed to call displayBlogs any time it's changed -->
+            <option value="all">All</option>
+            <option value="book"> Book </option>
+            <option value="online"> Online </option>
+            <option value="video"> Video </option>
+        </select>
+    </form>
+
+    <div id="blogdiv" onload="initialize()">
+        <!-- Keep this div empty - it's where the blog blurbs go-->
+
+    </div>
+
+</body>
+
+</html>

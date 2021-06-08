@@ -1,0 +1,18 @@
+#origamiLanguageImages{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.origamiLanguageImage{
+    width:35%;
+    margin-left:5%;
+    margin-right:5%;
+    object-fit:scale-down;
+}
+#origamiLanguageSymbols{
+    width:70%;
+    margin-left:10%;
+    margin-right:10%;
+    object-fit:scale-down;
+}

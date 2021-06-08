@@ -1,0 +1,119 @@
+/* Origami_05 */
+
+p, .textContent{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.resourceHeader{
+    width: 85%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1.25em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{  /* Navpage headers*/
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h3{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+a,:any-link {
+    color: #000000;
+}
+
+/* Blog Styling*/
+.blogImage{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    max-height:400px;
+    object-fit:scale-down;
+    margin-top:3%;
+}
+
+.modelAndAuthor{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    font-weight:bold;
+}
+
+
+/* Navbar styling*/
+#headerImage{
+    height:350px;
+    width: 100%;
+    object-fit:cover;
+    object-position: 0 80%;
+    position: relative;
+    /* right:0; */
+    /* top:0; */
+    transform: rotate(180deg);
+}
+
+h2{ /* Ori's Origami Review" */
+    text-align:center;
+    position: absolute;
+    color: #999;
+    top: 50px;
+    left:5%;
+    right:5%;
+    width:auto;
+
+    font-size: 4em;
+}
+
+.navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navBarContent {
+    display: inline;
+    float: left;
+    font-size: 1.75em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:25%;
+}
+
+.navBarLink {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+/* Citations page */
+.citationImage{
+    width: 400px;
+    object-fit: scale-down;
+}
+
+#citationTable{
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+}
+
+.imageCitation{
+    text-align:left;
+}
+
+.imageCell{
+    width:400px;
+}
