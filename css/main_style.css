@@ -59,7 +59,7 @@ a,:any-link {
     position: relative;
     /* right:0; */
     /* top:0; */
-    transform: rotate(180deg);
+    /*transform: rotate(180deg);*/
 }
 
 h2{ /* Ori's Origami Review" */
